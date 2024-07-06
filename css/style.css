@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Work Sans;
 }
 
 #hero {
@@ -71,6 +72,7 @@
   width: 279px;
   height: 66px;
   margin: 32px 0px;
+  cursor: pointer;
 }
 
 #hero .hero_content button:hover {
@@ -147,6 +149,14 @@
   text-align: center;
   opacity: 0.7;
 }
+.card_container {
+  width: 424px;
+  height: 525px;
+  border: 1px transparent;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 6px;
+  padding: 20px;
+}
 
 #card_box button {
   border-radius: 8px;
@@ -161,9 +171,85 @@
   font-size: 16px;
   font-weight: 600;
   line-height: 23px;
+  cursor: pointer;
 }
 
 #card_box button:hover {
   background: rgb(61, 130, 11);
   transition: 1s all ease-in-out;
 }
+
+.about_us {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.about_img {width: 50%;}
+
+.about_img img {width: 100%;}
+
+.about_us_contant {
+  margin: auto;
+  width: 50%;
+}
+.about_us_contant h1 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+  /* width: 805px; */
+  /* height: 128px; */
+}
+
+.about_us_contant p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  opacity: 0.6;
+  margin: 24px 0px;
+}
+
+.about_us_contant h3 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  text-align: center;
+  opacity: 0.7;
+  padding: 30px 10px 30px 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+  border-top: 1px solid rgba(16, 16, 16, 0.2);
+}
+
+.about_social_link {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.about_social_link i {
+    margin-right: 25px;
+}
+
+
+#social{
+  width: 97%;
+  height: 500px;
+  background-image: url(../assets/social-bg.png);
+  background-position:center;
+  background-size: cover;
+  opacity: .8;
+}
+
+
+
+
